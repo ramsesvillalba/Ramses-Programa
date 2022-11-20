@@ -1,0 +1,552 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Kannada&display=swap');
+
+
+body{
+    background-attachment: fixed;
+    font-family:Tiro Kannada ;
+    margin: 0;
+    background: radial-gradient(2000px,rgb(16, 16, 72), #000, rgb(16, 16, 72),#000);
+    animation-name:cambios ;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 12s;
+    transition: all .6s;
+}
+@keyframes cambios{
+
+    0%{
+        background: radial-gradient(2000px, #000,rgb(16, 16, 72),#000, rgb(16, 16, 72));
+    }
+
+    50%{
+        background: radial-gradient(2000px,rgb(16, 16, 72), #000, rgb(16, 16, 72),#000);
+    }
+
+    100%{
+        background: radial-gradient(2000px, #000,rgb(16, 16, 72),#000, rgb(16, 16, 72));
+    }
+    
+}
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.27em;}
+h3{font-size: 1.2em;}
+
+
+#title-h2{
+    margin: 20px;
+    font-size: 40px;
+}
+button{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255,255) ;
+    color: rgb(255, 255,255);
+    background-color: rgb(16, 16, 72);
+    transition: .2s;
+}
+
+button:hover{
+    background-color:  rgb(255, 255, 255);
+    color:  rgb(29, 29, 136);
+    border:  2px solid rgb(29, 29, 136);
+}
+.section-all{
+    max-width: 1200px;
+    margin: auto;
+}
+/*------------------------------------------------------------------*/
+
+
+header .container-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    margin: 7px;
+}
+
+header nav a{
+    margin: 2px;
+    font-size: 18px;
+    padding: 5px 18px;
+    text-align: center;
+    text-decoration: none;
+    transition: .2s;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 3px;
+}
+header nav a:hover{
+    color: rgb(29, 29, 136);
+    background-color:  rgb(255, 255, 255);
+}
+.loguito{
+
+    margin-top: 10px;
+    margin-bottom: 1px;
+    width: 210px;
+    
+}
+/*------------------------------------------------------------------*/
+
+.section-i-1{
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 600px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(media/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/*------------------------------------------------------------------*/
+
+.section-i-2 .container{
+    display: flex;
+   justify-content: center;
+    color: #fff;
+    text-align: center;
+    flex-direction: column;
+    padding: 100px 30px;
+    margin: 1px;
+}
+.acento{
+    color:  rgb(29, 29, 136);
+}
+.section-i-2 h2{
+    padding:50px;
+}
+.section-i-2 p{
+    font-size: 24px;
+}
+.section-i-2 .img-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+.section-i-2 .img-container img{
+    border-radius: 7px;
+}
+/*------------------------------------------------------------------*/
+
+.section-i-3{
+    padding: 20px 10px;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+
+ 
+}   
+.section-i-3 h2{
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    font-size: 65px;
+}
+.container-list{
+    align-items: center;
+}
+.curso{
+    text-align: center;
+    font-size: 15px;
+    border: 3px solid white;
+    margin: 13px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 10px #000;
+}
+.curso h3{
+    padding:190px 10px;
+    padding-bottom: 5px;
+    font-size: 41px;
+}
+.curso p{
+    font-size: 17px;
+   padding: 30px 10px;
+}
+.curso button{
+    font-size: 30px;
+    padding: 20px 40px;
+    margin-bottom: 10px;
+}
+.curso1 h3{
+    
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    , url(media/frontend.jpg);
+    background-size: cover;
+}
+.curso2 h3{
+    
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    , url(media/fullstack.jpg);
+    background-size: cover;
+}
+.curso3 h3{
+    
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    , url(media/python.jpg);
+    background-size: cover;
+}
+
+
+/*------------------------------------------------------------------*/
+
+
+.section-i-4{
+    justify-content: center;
+    padding: 100px 20px;
+}
+.section-i-4 .container-list ul li {
+    align-items:center ;
+    font-size: 25px;
+    list-style: none;
+    padding: 10px 0px;
+}
+.listtext{
+    color: #fff;
+}
+.section-i-4 .container-list {
+    color: #fff;
+    padding: 17px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 7px;
+}
+
+/*------------------------------------------------------------------*/
+
+.section-i-5{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 40px 20px;
+}
+.section-i-5  h2{
+    text-align: center;
+    padding: 17px 7px;
+}
+.section-i-5 h3{
+    text-align: center;
+    padding: 15px 10px;
+}
+
+/*------------------------------------------------------------------*/
+
+.section-i-6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.form-container{
+    border: #fff 2px solid;
+    border-radius: 10px;
+   padding-left:10px ;
+    display: flex;
+    height: 90%;
+    width: 690px;
+    align-items: center;
+}
+.form-container .login-container{
+    width: 600px;
+  margin: 0;
+    
+}
+.form-container .login-container > h2{
+    text-align: center;
+    font-size: 44px;
+}
+.form-container .login-container > p, .form-container .login-container span{
+    text-align: center;
+}
+.form-container .login-container label{
+    display: block;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+.form-container .login-container input.input{
+    display: block;
+    width: 100%;
+    box-sizing:border-box ;
+    padding: 3px;
+    margin-right: 8px;
+    margin-bottom: 7px;
+    border-radius: 7px;
+    transition: .3s;
+    background-color:transparent;
+    color: #fff;
+}
+
+.form-container .login-container input.input:focus{
+    outline: solid 2px #0099ff;
+}
+
+.form-container .login-container input.input:hover{
+   
+   outline: solid 2px #0099ff;
+}
+
+.form-container .login-container .options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.form-container a{
+    color: #0099ff;
+    text-decoration: none;
+}
+.form-container a:hover{
+    text-decoration: underline;
+}
+.btn{
+    padding: 15px 0;
+    font-weight: bolder;
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.btn.btn-login{
+    border-radius: 7px;
+    color: #fff;
+    background-color:#000;
+    transition: .3s;
+}
+.btn.btn-login:hover{
+    background-color:rgb(42, 42, 42);
+}
+.btn.btn-facebook{
+    background-color:#0d0dc1;
+}
+.btn.btn-facebook:hover{
+    border-color: #fff;
+    color: #fff;
+    background-color:#4545c7 ;
+}
+.btn.btn-google{
+    background-color:#ab0d0d ;
+}
+.btn.btn-google:hover{
+    border-color: #fff;
+    color: #fff;
+    background-color:#c33030;
+}
+.btn.btn-twitter{
+    background-color:#3181d1;
+}
+.btn.btn-twitter:hover{
+    border-color: #fff;
+    color: #fff;
+    background-color:#82bcf6;
+}
+.form-container .login-container .providers{
+    flex-direction: column;
+    display: flex;
+    gap: 1px;
+    text-align: center;
+    margin-top: 20px;
+}
+.form-container .welcome-screen-container{
+    background-position: top;
+    background-image: url(media/grupo.jpg);
+    height: 500px;
+    width: 400px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    
+}
+
+/*------------------------------------------------------------------*/
+
+footer{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    height: 200px;
+}
+footer nav{
+    display: flex;
+ 
+    margin: 17px;
+    justify-content: center;
+    
+}
+
+footer nav a{
+    width: 120px;
+    margin: 2px;
+    font-size: 18px;
+    padding: 5px 18px;
+    text-align: center;
+    text-decoration: none;
+    transition: .2s;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 3px;
+}
+footer nav a:hover{
+    color: rgb(29, 29, 136);
+    background-color:  rgb(255, 255, 255);
+}
+footer nav a:nth-child(3){
+    padding-top:15px ;
+}
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+@media (min-width:720px){
+
+    header{
+        position: fixed;
+        width: 100%;
+        background-color: #000;
+    }
+    header .container-header{
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 6px;
+      
+    }
+    header nav{
+        flex-direction: row;
+        margin: 0;
+        margin-right: 14px;
+    }
+    header .loguito{
+        margin-left: 17px;
+    }
+    /*..................................................*/
+    .section-i-2 .container{
+        justify-content: space-between;
+        display: flex;
+        padding: 200px 10px;
+        flex-direction: row;
+    }
+    .section-i-2 .text-container-somos{
+        text-align: initial;
+        justify-content:initial;
+        padding: 15px;
+        flex-grow: 2;
+    }
+    .section-i-2 .text-container-somos h2{
+        padding:17px 4px;
+    }
+    .section-i-2 .text-container-somos p{
+        padding:17px 4px;
+    }
+    .section-i-2 .img-container{
+        padding: 0px 10px;
+        flex-grow: 2;
+        min-width: 400px;
+    }
+
+    /*..................................................*/
+ 
+    .section-i-3 .container-list{
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        
+    }
+    .section-i-3 .container-list .curso button{
+        padding: 10px 15px;
+        font-size: 20px;
+    }
+    .section-i-3 .container-list .curso{
+        min-width: 300px;
+        margin: 10px 8px;
+    }
+    .section-i-3 .container-list .curso3{
+        flex-grow: 1;
+    }
+    
+    /*..................................................*/
+ 
+    .section-i-4{
+        padding: 100px 3px;
+    }
+    .section-i-4 .container-list{
+        justify-content:space-evenly ;
+        display: flex;
+        padding: 90px 10px;
+    }
+    .section-i-4 .container-list ul{  
+        margin: left;
+    }
+    .section-i-4 .container-list ul li{
+        font-size: 30px;
+    }
+    .section-i-4 .container-list .container-img{
+        background-image: url(media/fotolista.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 600px;
+        height: 300px;
+        margin: 10px 10px;
+        border-radius: 8px;
+    }
+    /*..................................................*/
+    .section-i-5 .container-info{
+        justify-content: center;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-i-5 .container-info button{
+        padding: 10px 10px !important;
+    }
+}
+
+
+
+@media  screen and (max-width: 720px){
+    .form-container{
+        width: 90%;
+    }
+    .form-container .login-container{
+        width: 95%;
+        margin: auto;
+    }
+    .form-container .welcome-screen-container{
+        width: 0px;
+        height: 0px;
+        background-image: none;
+    }
+}
